@@ -1,0 +1,17 @@
+# Python 3.10。PyTorch 與 PyG 擴充套件請依 CUDA 版本安裝，見 README「環境安裝」。
+torch==2.5.1
+torch-geometric==2.6.1
+# torch_scatter、torch_sparse 依 CUDA 版本另行安裝（README）
+numpy==2.2.6
+scipy==1.13.1
+scikit-learn==1.5.2
+gensim==4.4.0
+networkx==3.4.2
+matplotlib==3.10.1
+tqdm==4.66.6
+pillow==10.1.0
+# 基準方法 XGBoost（baseline_B.py --model xgb）
+xgboost==3.2.0
+# VLM 偵測（llm_detect.py）
+openai==1.100.2
+anthropic==1.15.0
